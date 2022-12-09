@@ -311,13 +311,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  fill: var(--light-grey);
 }
 .our-customers-logo a {
   align-items: center;
   justify-content: center;
   padding: 13px 29px;
   border-radius: 4px;
+  fill: var(--light-grey);
   border: 1px solid var(--light-grey);
 }
 
@@ -387,11 +387,13 @@ body {
   letter-spacing: 0.03em;
 }
 
+.route:focus {
+  outline: none;
+}
 .contact-mail:focus,
 .contact-mail:hover,
 .contact-tel:focus,
-.contact-tel:hover,
-.route:focus {
+.contact-tel:hover {
   cursor: pointer;
   color: var(--text-alt);
   outline: none;
