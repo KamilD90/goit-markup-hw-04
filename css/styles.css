@@ -28,6 +28,7 @@ body {
 .header {
   border-bottom: 1px solid #ececec;
 }
+
 .container {
   max-width: 1200px;
   width: 100%;
@@ -39,6 +40,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .flex-nav {
   display: flex;
 }
@@ -55,6 +57,7 @@ body {
   padding: 24px 0;
   margin-right: 93px;
 }
+
 .logo:focus {
   outline: none;
 }
@@ -95,6 +98,7 @@ body {
   gap: 30px;
   margin-right: 12px;
 }
+
 .contact a {
   display: flex;
   align-items: center;
@@ -105,6 +109,7 @@ body {
   color: var(--text1);
   fill: currentColor;
 }
+
 .contact svg {
   margin-right: 10px;
 }
@@ -204,18 +209,23 @@ body {
 }
 
 /* section OUR JOB main page */
+
+.our-job.section {
+  margin-top: -94px;
+}
+
 .our-job-example {
   vertical-align: middle;
 }
+
 .our-job h2 {
   font-weight: 700;
   font-size: 36px;
   color: var(--text2);
   line-height: 1.17;
-  margin-top: 0 px;
-
   text-align: center;
 }
+
 .our-job ul {
   display: flex;
   flex-direction: row;
@@ -227,6 +237,7 @@ body {
 .team {
   background-color: var(--our-team);
 }
+
 .team h2 {
   font-weight: 700;
   color: var(--text2);
@@ -235,6 +246,7 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
+
 .team ul {
   list-style: none;
   display: flex;
@@ -273,6 +285,7 @@ body {
 .team-sm-icon {
   fill: var(--light-grey);
 }
+
 .team-sm a {
   display: flex;
   align-items: center;
@@ -285,6 +298,7 @@ body {
 .team-sm-circle:focus > .team-sm-icon {
   fill: var(--white);
 }
+
 .team-sm-circle:hover,
 .team-sm-circle:focus {
   background-color: var(--text-alt);
@@ -307,11 +321,13 @@ body {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
+
 .our-customers-logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .our-customers-logo a {
   align-items: center;
   justify-content: center;
@@ -337,6 +353,7 @@ body {
 .footer {
   background-color: var(--section-background);
 }
+
 .footer .container {
   display: flex;
   flex-direction: row;
@@ -344,14 +361,17 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .footer-info {
   display: flex;
   flex-direction: column;
 }
+
 .footer .logo {
   padding: 0;
   margin-bottom: 20px;
 }
+
 .logo-studio-white {
   color: var(--white);
 }
@@ -359,6 +379,7 @@ body {
 .footer-info address {
   font-style: normal;
 }
+
 .footer-info ul {
   list-style: none;
   display: flex;
@@ -372,6 +393,7 @@ body {
   text-decoration: none;
   line-height: 1.71;
 }
+
 .contact-mail {
   text-decoration: none;
   font-size: 14px;
@@ -379,6 +401,7 @@ body {
   color: var(--text1);
   letter-spacing: 0.03em;
 }
+
 .contact-tel {
   text-decoration: none;
   font-size: 14px;
@@ -390,6 +413,7 @@ body {
 .route:focus {
   outline: none;
 }
+
 .contact-mail:focus,
 .contact-mail:hover,
 .contact-tel:focus,
@@ -398,6 +422,7 @@ body {
   color: var(--text-alt);
   outline: none;
 }
+
 .footer-join {
   display: flex;
   flex-direction: column;
@@ -413,6 +438,7 @@ body {
   letter-spacing: 3%;
   margin-bottom: 20px;
 }
+
 .footer-join-icons {
   display: flex;
   flex-direction: row;
@@ -420,18 +446,26 @@ body {
   justify-content: center;
   gap: 10px;
 }
+
 .footer-sm-circle {
+  display: flex;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  padding: 10px 12px 10px 12px;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
 }
+
 .footer-join-icons svg {
   fill: var(--white);
 }
+
 .footer-sm-circle:hover > .footer-sm-icon,
 .footer-sm-circle:focus > .footer-sm-icon {
   fill: var(--white);
 }
+
 .footer-sm-circle:hover,
 .footer-sm-circle:focus {
   background-color: var(--text-alt);
@@ -442,6 +476,7 @@ body {
 .section.filters {
   padding-bottom: 50px;
 }
+
 .filters ul {
   list-style: none;
   display: flex;
@@ -480,6 +515,7 @@ body {
 .section.category {
   padding-top: 0;
 }
+
 .category ul {
   list-style: none;
   display: flex;
@@ -503,9 +539,11 @@ body {
   border: 1px solid #ececec;
   border-top: none;
 }
+
 .category img {
   vertical-align: middle;
 }
+
 .category-item {
   padding: 4px 0 20px 24px;
   display: block;
